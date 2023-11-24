@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Poppins:ital,wght@0,100;0,500;0,600;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url(headerbg1-o7rtmt-7j-transformed.png);
+  background-color: #171717;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0; /* Menghilangkan margin default pada body */
+}
+
+.container {
+  position: absolute;
+  left: 50%; /* Ubah dari 15% ke 50% untuk memindahkan ke tengah horizontal */
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 20px;
+  padding: 20px 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.container h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #b6895b;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.container label {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  color: #b6895b;
+}
+
+.container form input {
+  font-family: "Poppins", sans-serif;
+  height: 45px;
+  width: 92%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  color: #1d1d1d;
+  padding: 0 0 0 42px;
+  background-color: #fff; /* Ubah latar belakang menjadi warna putih */
+  box-shadow: 0 0 10px rgba(182, 137, 91, 0.5);
+}
+
+.container form button {
+  width: 20%;
+  padding: 5px 0;
+  font-family: "Poppins", sans-serif;
+  color: #171616;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: small;
+  cursor: pointer;
+  background-color: #b6895b;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #b6895b;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #a27449; /* Warna background saat hover */
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .container h1 {
+    font-size: 24px;
+  }
+
+  .container form input {
+    height: 10px;
+  }
+
+  .container form button {
+    padding: 5px 0;
+    font-size: smaller;
+  }
+}
+
+@media (max-width: 100px) {
+  .container h1 {
+    font-size: 20px;
+  }
+
+  .container form input {
+    height: 30px;
+  }
+
+  .container form button {
+    padding: 5px 0;
+    font-size: xx-small;
+  }
+}

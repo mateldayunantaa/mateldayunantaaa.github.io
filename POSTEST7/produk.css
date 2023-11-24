@@ -1,0 +1,43 @@
+* {
+  font-family: "Trebuchet MS";
+}
+
+h1 {
+  text-transform: uppercase;
+  color: rgb(196, 155, 80);
+}
+
+table {
+  border: 1px solid #ddeeee;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 70%;
+  margin: 10px auto 10px auto;
+}
+
+table tr th {
+  background-color: #d7dc8a;
+  border: 1px solid #cec896;
+  color: #6b6933;
+  padding: 10px;
+  text-align: left;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+table tr td {
+  border: 1px solid #ddeeee;
+  color: #333;
+  padding: 10px;
+  text-align: left;
+}
+
+a {
+  background-color: rgb(196, 155, 80);
+  color: #fff;
+  padding: 10px;
+  font-size: 12px;
+  text-decoration: none;
+  border-radius: 15px; /* Mengatur sudut tombol */
+  display: inline-block; /* Membuat tombol menjadi elemen inline-block */
+  margin-top: 10px;
+}
